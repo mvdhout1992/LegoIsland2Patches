@@ -40,4 +40,16 @@ Game suffers from extreme load times
 
 # /force command line arg
 
-??
+Maybe decreases load time?
+
+# Windowed mode
+
+Change:
+
+004029AC     C685 74FEFFFF >MOV BYTE PTR SS:[EBP-18C],0
+
+Into:
+
+004029AC     C685 74FEFFFF >MOV BYTE PTR SS:[EBP-18C],1
+
+
