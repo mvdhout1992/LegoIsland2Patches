@@ -54,6 +54,8 @@ Into:
 
 # Debug menu
 
+To change 'game credits' menu into Debug menu..
+
 Change:
 
 .data:00972704                 db    4
