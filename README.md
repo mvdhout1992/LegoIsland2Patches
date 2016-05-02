@@ -38,6 +38,10 @@ NOP out calls to 0x0081C693 at addresses:
 
 Game suffers from extreme load times
 
+Running in windowed mode decrases load times by ~5x.  In full screen mode the loading pizza animation is smooth, in windowed mode it's very laggy. Might be related?
+
+Game forces v-sync, why?
+
 # /force command line arg
 
 Maybe decreases load time?
