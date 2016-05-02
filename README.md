@@ -18,13 +18,21 @@ And:
 
 Into:
 
-.text:00408478                 NOP
-.text:00408479                 NOP
-.text:0040847A                 NOP
-.text:0040847B                 NOP
-.text:0040847C                 NOP
+.text:00408478                 NOP  
+.text:00408479                 NOP  
+.text:0040847A                 NOP  
+.text:0040847B                 NOP  
+.text:0040847C                 NOP  
 
 (that is, NOP out the jz instruction)
+
+# No intro vids
+
+NOP out calls to 0x0081C693 at addresses:
+
+0x00402AEA  
+0x00402B20  
+0x00402B56  
 
 # Load Long Times fix patch?
 
