@@ -37,3 +37,7 @@ NOP out calls to 0x0081C693 at addresses:
 # Load Long Times fix patch?
 
 Game suffers from extreme load times
+
+# /force command line arg
+
+??
