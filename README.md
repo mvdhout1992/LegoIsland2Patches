@@ -52,9 +52,9 @@ Into:
 
 004029AC     C685 74FEFFFF >MOV BYTE PTR SS:[EBP-18C],1
 
-# Debug menu
+# Debug level select menu
 
-To change 'game credits' menu into Debug menu..
+To change 'game credits' menu into Debug level select menu..
 
 Change:
 
@@ -80,4 +80,6 @@ To
 
 009726C4  44 65 62 75 67 00 00 00
 
+# Debug info window
 
+When windowed mode is enabled a debug menu can be enabled by pressing F9
