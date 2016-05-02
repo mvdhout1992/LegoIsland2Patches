@@ -52,4 +52,20 @@ Into:
 
 004029AC     C685 74FEFFFF >MOV BYTE PTR SS:[EBP-18C],1
 
+# Debug menu
 
+Change:
+
+.data:00972704                 db    4
+
+and
+
+.data:00972708                 db    2
+
+Into:
+
+.data:00972704                 db    1
+
+and
+
+.data:00972708                 db    11
