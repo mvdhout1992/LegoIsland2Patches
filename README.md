@@ -71,3 +71,13 @@ Into:
 and
 
 .data:00972708                 db    11
+
+To change the text 'Game Credits' into 'Debug' on the menu name change:
+
+009726C4  21 43 52 45 44 49 54 53
+
+To
+
+009726C4  44 65 62 75 67 00 00 00
+
+
