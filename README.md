@@ -102,3 +102,7 @@ To
 # Debug info window
 
 When windowed mode is enabled a debug menu can be enabled by pressing F9
+
+# /nomutex command line arg
+
+This arg allows you to run multiple copies of the game simultaneously. 
