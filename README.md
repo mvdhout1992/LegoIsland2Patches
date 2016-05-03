@@ -50,7 +50,16 @@ into:
 
 # /force command line arg
 
-Maybe decreases load time?
+Maybe decreases load time? No idea what it does.
+
+To force the '/force' command line arg change:
+
+004029B3   C685 F0FDFFFF 00 MOV BYTE PTR SS:[EBP-210],0
+
+into
+
+004029B3   C685 F0FDFFFF 00 MOV BYTE PTR SS:[EBP-210],1
+
 
 # Windowed mode
 
